@@ -1,0 +1,19 @@
+{
+  "name": "nightlife-app",
+  "version": "1.0.0",
+  "description": "Corrdinate your nightlife with your friends",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dgonz001/nightlifeApp.git"
+  },
+  "author": "JD Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dgonz001/nightlifeApp/issues"
+  },
+  "homepage": "https://github.com/dgonz001/nightlifeApp#readme"
+}
