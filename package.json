@@ -1,7 +1,7 @@
 {
   "name": "nightlife-app",
   "version": "1.0.0",
-  "description": "Corrdinate your nightlife with your friends",
+  "description": "Coordinate your nightlife with your friends",
   "main": "app.js",
   "dependencies": {
     "bcrypt-nodejs": "^0.0.3",

@@ -14,12 +14,12 @@ require('./app/config/passport')(passport);
 
 mongoose.Promise = require('bluebird');
 mongoose.connect(process.env.MONGO_URI);
-mongoose.set("debug", false);
+mongoose.set("debug", true);
 
 app.use(express.static(__dirname + '/public'));
 
 app.use(session({
-	secret: 'secretVotingApp',
+	secret: 'secretNightlifeApp',
 	resave: false,
 	saveUninitialized: true
 }));
