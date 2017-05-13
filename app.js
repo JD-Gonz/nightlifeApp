@@ -17,7 +17,10 @@ mongoose.Promise = require('bluebird');
 mongoose.connect(process.env.MONGO_URI);
 mongoose.set("debug", true);
 
-app.use(express.static(__dirname + '/public'));
+app.use('public', express.static(__dirname + '/public'));
+app.use('views', express.static(__dirname + '/public/views'));
+app.use('css', express.static(__dirname + '/public/css'));
+app.use('js', express.static(__dirname + '/public/js'));
 
 app.use(session({
 	secret: 'secretNightlifeApp',
