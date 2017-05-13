@@ -1,7 +1,7 @@
 /* global next */
 'use strict';
 
-var User = require('../models/user.js');
+const User = require('../models/user.js');
 
 function DBHandler () {
 

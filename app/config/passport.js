@@ -1,8 +1,8 @@
 'use strict';
 
-var TwitterStrategy = require("passport-twitter").Strategy;
-var configAuth = require('./oauth');
-var User = require('../models/user');
+const TwitterStrategy = require("passport-twitter").Strategy;
+const configAuth = require('./oauth');
+const User = require('../models/user');
 
 module.exports = function(passport) {
 

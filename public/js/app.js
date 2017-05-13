@@ -1,7 +1,7 @@
 /* global $ angular */
 'use strict';
 
-var app = angular.module("nightlifeApp", ["ui.router"]);
+const app = angular.module("nightlifeApp", ["ui.router"]);
 
 app.config(function($stateProvider, $urlRouterProvider) {
 
@@ -31,8 +31,8 @@ app.config(function($stateProvider, $urlRouterProvider) {
     });
 });
 
-var checkLoggedin = function($q, $timeout, $http, $location, $rootScope) {
-  var deferred = $q.defer();
+const checkLoggedin = function($q, $timeout, $http, $location, $rootScope) {
+  let deferred = $q.defer();
 
   $http.get('/loggedin').success(function(user) {
     $rootScope.errorMessage = null;

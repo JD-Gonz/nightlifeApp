@@ -1,14 +1,15 @@
 'use strict';
 
-var express = require('express');
-var session = require('express-session');
-var bodyParser = require('body-parser');
-var cookieParser = require('cookie-parser');
-var passport = require('passport');
-var routes = require('./app/routes.js');
-var mongoose = require("mongoose");
+const express = require('express');
+const session = require('express-session');
+const bodyParser = require('body-parser');
+const cookieParser = require('cookie-parser');
+const passport = require('passport');
+const routes = require('./app/routes.js');
+const mongoose = require("mongoose");
+const yelp = require('yelp-fusion');
 
-var app = express();
+const app = express();
 
 require('./app/config/passport')(passport);
 
@@ -35,7 +36,7 @@ app.use(bodyParser.urlencoded({
 
 routes(app, passport);
 
-var port = process.env.PORT || 8080;
+const port = process.env.PORT || 8080;
 app.listen(port,  function () {
 	console.log('Node.js listening on port ' + port + '...');
 });

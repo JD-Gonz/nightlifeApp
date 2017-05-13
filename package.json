@@ -12,7 +12,8 @@
     "express-session": "^1.14.1",
     "mongoose": "^4.6.4",
     "passport": "^0.3.2",
-    "passport-twitter": "^1.0.4"
+    "passport-twitter": "^1.0.4",
+    "yelp-fusion": "^1.0.3"
   },
   "devDependencies": {},
   "scripts": {
