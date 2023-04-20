@@ -22,12 +22,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/dgonz001/nightlifeApp.git"
+    "url": "git+https://github.com/jd-gonz/nightlifeApp.git"
   },
   "author": "JD Gonzalez",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/dgonz001/nightlifeApp/issues"
+    "url": "https://github.com/jd-gonz/nightlifeApp/issues"
   },
-  "homepage": "https://github.com/dgonz001/nightlifeApp#readme"
+  "homepage": "https://github.com/jd-gonz/nightlifeApp#readme"
 }
